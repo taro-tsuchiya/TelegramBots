@@ -1,4 +1,4 @@
-# Bots as Infrastructure: A Large-Scale Study of Benign and Malicious Uses on Telegram
+# A Large-Scale Study of Telegram Bots
 
 This repository contains the code to reproduce the results of the paper published at ICWSM'26: A Large-Scale Study of Telegram Bots (Tsuchiya et al, 2026). 
 You are expected to have at least 25 MB of disk space and to execute two scripts in less than 10 minutes on a consumer laptop.
@@ -6,7 +6,7 @@ You are expected to have at least 25 MB of disk space and to execute two scripts
 Notes: 
 - As discussed in the ethical statement of the paper, this repository (publicly available) does not contain any data files.
 - The scripts show you more detailed steps than what we described in the paper. 
-- However, if you would like to directly execute the scripts, please request data access through the Zenodo link [here](https://zenodo.org/records/17281308) and put the csv files under the `data/` directory.
+- However, if you would like to directly execute the scripts, please request data access through the Zenodo link [here](https://zenodo.org/records/17281308) and download `data.zip` and place all csv files under the `data/` directory.
 - In `data/`, we have all 32,000+ bots (including the interaction with them). 
 - We have two scripts to reproduce the quantitative results (and the figures) in the paper.
 - We confirmed that the scripts ran without any issues on multiple machines.
